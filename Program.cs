@@ -81,7 +81,7 @@ namespace Uppgift1
             };
             admins.Add(admin1);
 
-            // List all
+            
             ListAllStudents();
             ListAllTeachers();
             ListAllCourses();

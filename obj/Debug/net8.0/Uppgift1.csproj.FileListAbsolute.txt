@@ -12,3 +12,4 @@ C:\Users\André\skola\Uppgift1\obj\Debug\net8.0\refint\Uppgift1.dll
 C:\Users\André\skola\Uppgift1\obj\Debug\net8.0\Uppgift1.pdb
 C:\Users\André\skola\Uppgift1\obj\Debug\net8.0\Uppgift1.genruntimeconfig.cache
 C:\Users\André\skola\Uppgift1\obj\Debug\net8.0\ref\Uppgift1.dll
+C:\Users\André\skola\uppgift1\obj\Debug\net8.0\Uppgift1.sourcelink.json
