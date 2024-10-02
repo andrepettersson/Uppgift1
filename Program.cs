@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Encodings.Web;
+using System.Text.Json;
 
 namespace Uppgift1
 {
@@ -123,7 +125,7 @@ namespace Uppgift1
         {
             if (courses.Count == 0)
             {
-                Console.WriteLine("Inga kurser valda.");
+                Console.WriteLine("Inga kurser valda");
                 return;
             }
 
@@ -163,6 +165,7 @@ namespace Uppgift1
                 
                 Console.WriteLine(admin.AddAdminInfo());
             }
+
         }
     }
 }

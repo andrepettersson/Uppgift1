@@ -9,7 +9,7 @@ namespace Uppgift1
     public DateTime EmploymentDate { get; set; } 
     public string TeacherInfo()
     {
-        string courseInfo = "Lägg till en kurs";
+        string courseInfo = "Matematik";
 
          if (Courses.Count > 0)
         {
@@ -25,7 +25,7 @@ namespace Uppgift1
             }
         }
 
-        return $"{Info()}, Information om kunskap: {KnowledgeInfo}, Blev Anställd: {EmploymentDate.ToShortDateString()}, Kurser: {courseInfo}";
+        return $"{Info()}, Information om kunskap: {KnowledgeInfo}, Blev Anställd: {EmploymentDate.ToShortDateString()}, Kurs: {courseInfo}";
         }
     
     }
