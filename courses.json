@@ -4,15 +4,15 @@
     "Title": "Matematik",
     "LengthOfCourse": "8 Veckor",
     "StartDate": "2024-09-10T00:00:00",
-    "EndDate": "2024-12-03T10:05:21.9145892+01:00",
+    "EndDate": "2024-12-03T10:13:20.5778929+01:00",
     "ClassRoomOrDistance": "Distans"
   },
   {
-    "CourseNumber": "E200",
-    "Title": "Engelska",
+    "CourseNumber": "M200",
+    "Title": "Matematik 2",
     "LengthOfCourse": "12 Veckor",
     "StartDate": "2024-02-09T00:00:00",
-    "EndDate": "2024-12-03T10:05:21.9222466+01:00",
+    "EndDate": "2024-12-03T10:13:20.591456+01:00",
     "ClassRoomOrDistance": "Klassrum"
   }
 ]

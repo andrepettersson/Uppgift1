@@ -29,8 +29,8 @@ namespace Uppgift1
 
             var course2 = new Course
             {
-                CourseNumber = "E200",
-                Title = "Engelska",
+                CourseNumber = "M200",
+                Title = "Matematik 2",
                 LengthOfCourse = "12 Veckor",
                 StartDate = new DateTime(2024, 2, 9),
                 EndDate = DateTime.Now.AddMonths(2),
@@ -51,6 +51,18 @@ namespace Uppgift1
             };
             students.Add(student1);
 
+            var student2 = new Student
+            {
+                Name = "Emil",
+                LastName = "Svensson",
+                PhoneNumber = "0789966332",
+                Address = "Skolgatan 78",
+                ZipCode = "665599",
+                City = "Sjöbo",
+                SocialSecurityNumber = "1995636525"
+            };
+            students.Add(student2);
+
            
             var teacher1 = new Teacher
             {
@@ -65,6 +77,20 @@ namespace Uppgift1
                 EmploymentDate = new DateTime(2019, 8, 1)
             };
             teachers.Add(teacher1);
+
+            var teacher2 = new Teacher
+            {
+                Name = "Göran",
+                LastName = "Göransson",
+                PhoneNumber = "0785522669",
+                Address = "Kapellvägen 8",
+                ZipCode = "45698",
+                City = "Svenstorp",
+                SocialSecurityNumber = "1885522663",
+                KnowledgeInfo = "Engelska, Fysik och Idrott",
+                EmploymentDate = new DateTime(2011, 2, 2)
+            };
+            teachers.Add(teacher2);
 
            
             var educationLeader1 = new EducationLeader
