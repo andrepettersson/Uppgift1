@@ -18,14 +18,25 @@ namespace Uppgift1
          
             var course1 = new Course
             {
-                CourseNumber = "A100",
-                Title = "Engelska",
+                CourseNumber = "M100",
+                Title = "Matematik",
                 LengthOfCourse = "8 Veckor",
                 StartDate = new DateTime(2024, 9, 10),
                 EndDate = DateTime.Now.AddMonths(2),
                 ClassRoomOrDistance = "Distans"
             };
             courses.Add(course1);
+
+            var course2 = new Course
+            {
+                CourseNumber = "E200",
+                Title = "Engelska",
+                LengthOfCourse = "12 Veckor",
+                StartDate = new DateTime(2024, 2, 9),
+                EndDate = DateTime.Now.AddMonths(2),
+                ClassRoomOrDistance = "Klassrum"
+            };
+            courses.Add(course2);
 
            
             var student1 = new Student
@@ -165,6 +176,12 @@ namespace Uppgift1
                 
                 Console.WriteLine(admin.AddAdminInfo());
             }
+             var options = new JsonSerializerOptions();
+
+             options.WriteIndented = true;
+
+            string jsonString = JsonSerializer.Serialize(courses, options);
+            File.WriteAllText("courses.json", jsonString);
 
         }
     }
