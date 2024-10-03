@@ -202,12 +202,20 @@ namespace Uppgift1
                 
                 Console.WriteLine(admin.AddAdminInfo());
             }
-             var options = new JsonSerializerOptions();
+             var options = new JsonSerializerOptions
+           
+            {
+            PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+            Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
+            WriteIndented = true 
+            };
+            var json = JsonSerializer.Serialize(courses, options);
+            var path = string.Concat(Environment.CurrentDirectory, "/Data/courses.json");
+            File.WriteAllText(path, json);
+              
 
-             options.WriteIndented = true;
-
-            string jsonString = JsonSerializer.Serialize(courses, options);
-            File.WriteAllText("courses.json", jsonString);
+             
+            
 
         }
     }
