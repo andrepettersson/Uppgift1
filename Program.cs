@@ -33,7 +33,7 @@ namespace Uppgift1
                 Title = "Matematik 2",
                 LengthOfCourse = "12 Veckor",
                 StartDate = new DateTime(2024, 2, 9),
-                EndDate = DateTime.Now.AddMonths(2),
+                EndDate = DateTime.Now.AddMonths(3),
                 ClassRoomOrDistance = "Klassrum"
             };
             courses.Add(course2);
