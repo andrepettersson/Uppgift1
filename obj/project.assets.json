@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\André\\skola\\Uppgift1\\Uppgift1.csproj",
+      "projectUniqueName": "C:\\Users\\André\\skola\\uppgift1\\Uppgift1.csproj",
       "projectName": "Uppgift1",
-      "projectPath": "C:\\Users\\André\\skola\\Uppgift1\\Uppgift1.csproj",
+      "projectPath": "C:\\Users\\André\\skola\\uppgift1\\Uppgift1.csproj",
       "packagesPath": "C:\\Users\\André\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\André\\skola\\Uppgift1\\obj\\",
+      "outputPath": "C:\\Users\\André\\skola\\uppgift1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\André\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
