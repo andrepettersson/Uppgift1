@@ -2,31 +2,35 @@
 
 namespace Uppgift1
 {
-    public class Teacher : PersonalInfo
+public class Teacher : PersonalInfo, IReadInfo
+{
+public string KnowledgeInfo { get; set; } = "";
+public List<Course> Courses { get; set; } = new List<Course>();
+public DateTime EmploymentDate { get; set; } 
+public string TeacherInfo()
+{
+string courseInfo = "Matematik";
+
+    if (Courses.Count > 0)
     {
-    public string KnowledgeInfo { get; set; } = "";
-    public List<Course> Courses { get; set; } = new List<Course>();
-    public DateTime EmploymentDate { get; set; } 
-    public string TeacherInfo()
+    courseInfo = ""; 
+
+    foreach (var course in Courses)
     {
-        string courseInfo = "Matematik";
+    if (courseInfo.Length > 0)
+    {
+    courseInfo += ", ";
+    }
+    courseInfo += course.Title;
+    }
+    }
 
-         if (Courses.Count > 0)
-        {
-            courseInfo = ""; 
-
-            foreach (var course in Courses)
-            {
-            if (courseInfo.Length > 0)
-            {
-            courseInfo += ", ";
-            }
-            courseInfo += course.Title;
-            }
-        }
-
-        return $"{Info()}, Information om kunskap: {KnowledgeInfo}, Blev Anställd: {EmploymentDate.ToShortDateString()}, Kurs: {courseInfo}";
-        }
+    return $"{Info()}, Kunskap inom: {KnowledgeInfo}, Blev Anställd: {EmploymentDate.ToShortDateString()}, Kurs: {courseInfo}";
+    }
+    public string Read()
+    {
+        return TeacherInfo();
+    }
     
     }
 }
