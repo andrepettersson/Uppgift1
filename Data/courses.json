@@ -1,18 +1,18 @@
 [
   {
-    "courseNumber": "M100",
-    "title": "Matematik",
-    "lengthOfCourse": "8 Veckor",
-    "startDate": "2024-09-10T00:00:00",
-    "endDate": "2024-12-09T11:20:56.6626145+01:00",
-    "classRoomOrDistance": "Distans"
+    "CourseNumber": "",
+    "Title": "",
+    "LengthOfCourse": "",
+    "StartDate": "0001-01-01T00:00:00",
+    "EndDate": "0001-01-01T00:00:00",
+    "ClassRoomOrDistance": ""
   },
   {
-    "courseNumber": "M200",
-    "title": "Matematik 2",
-    "lengthOfCourse": "12 Veckor",
-    "startDate": "2024-02-09T00:00:00",
-    "endDate": "2025-01-09T11:20:56.6725203+01:00",
-    "classRoomOrDistance": "Klassrum"
+    "CourseNumber": "",
+    "Title": "",
+    "LengthOfCourse": "",
+    "StartDate": "0001-01-01T00:00:00",
+    "EndDate": "0001-01-01T00:00:00",
+    "ClassRoomOrDistance": ""
   }
 ]
