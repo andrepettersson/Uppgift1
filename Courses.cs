@@ -13,4 +13,5 @@ public class Course : IReadInfo
     {
         return $"Kursnummer: {CourseNumber}, Titel: {Title}, Längd: {LengthOfCourse}, Startdatum: {StartDate.ToShortDateString()}, Slutdatum: {EndDate.ToShortDateString()}, Typ: {ClassRoomOrDistance}";
     }
+    
     }
